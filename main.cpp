@@ -1,29 +1,38 @@
 #include <iostream>
+
 using namespace std;
 
+class shape{
+
+};
 
 class Rectangle : shape{
+public:
     double width0, height0;
     Rectangle(double width, double height){
+        width0 = width;
+        height0 = height;
 
     }
 
 };
-class Square{
-    double side0 : shape;
+class Square : shape{
+public:
+    double side0;
     Square(double side){
+        side0 = side;
 
     }
 };
-class Circle : shape{
+class Circle :shape{
+public:
     double radius0;
     Circle(double radius){
+        radius0 = radius;
 
     }
 };
-class Shape{
 
-};
 int main() {
 
     Rectangle r1{ 3.0, 5.0 };
