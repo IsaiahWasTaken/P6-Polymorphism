@@ -75,3 +75,14 @@ int main() {
 
 
 }
+/*1. Personally, I think I'd prefer static polymorphism since in this scenario you wouldn't need the Shape class
+ * which saves time and space even though it wouldn't make a huge difference in this case. In a large scale project I
+ * static polymorphism will save you a lot of time and reduce the potential of you making mistakes.
+ *
+ *
+ *2. Based on my experience with static polymorphism, I can see why it's encouraged over dynamic simply by the fact
+ * dynamic polymorphism can be more complicated or tedious. Using static polymorphism simplifies code and can make it 
+ * easier to interrupt as it requires less to be written.
+ *
+ *
+ */
