@@ -57,8 +57,8 @@ public:
 
 
 };
-
-void printArea(Shape& shape) {
+template <typename T>
+void printArea(T& shape) {
     cout << shape.area() << "\n";
 }
 
